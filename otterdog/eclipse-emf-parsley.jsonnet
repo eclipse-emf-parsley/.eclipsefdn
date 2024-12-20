@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-emf-parsley') {
+orgs.newOrg('modeling.emf-parsley', 'eclipse-emf-parsley') {
   settings+: {
     description: "",
     name: "EMF Parsley",
