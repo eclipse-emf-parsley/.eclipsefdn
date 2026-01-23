@@ -34,7 +34,7 @@ orgs.newOrg('modeling.emf-parsley', 'eclipse-emf-parsley') {
           value: "********",
         },
         orgs.newRepoSecret('SONAR_TOKEN') {
-          value: "********",
+          value: "pass:bots/modeling.emf-parsley/sonarcloud.io/token",
         },
       ],
     },
